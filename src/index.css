@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+section.section {
+  flex: 1;
+}
+
+img.gameProfile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+.game {
+  min-height: 400px;
+}
+
+.messaging {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.messaging-me {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.messaging-me .box {
+  background-color: #3575d6;
+  color: white;
+  border: none;
+}
+
+.messaging-info {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
