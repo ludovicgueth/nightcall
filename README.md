@@ -13,5 +13,6 @@ Le site est accessible à l'adresse
 Pour l'ouvrir en local (il faut avoir npm ou yarn installé) :
 
         $ git clone https://github.com/ludovicgueth/nightcall.git
+        $ cd nightcall
         $ npm install
         $ npm start
