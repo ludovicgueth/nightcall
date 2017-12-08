@@ -97,7 +97,10 @@ const Game = () => {
           />
           <div className="box">
             <div className="content">
-              Super, je vous invite à télécharger notre application mobile.
+              Super, je vous invite à essayer l'application{" "}
+              <a href="https://expo.io/@guillaumetran/nuitinfo2017">
+                avec Expo
+              </a>.
               <br />
               <small>{getHours()}</small>
             </div>
@@ -159,6 +162,14 @@ export default class Home extends Component {
             </div>
           </div>
         </section>
+        <section className="section">
+          <a
+            href="https://expo.io/@guillaumetran/nuitinfo2017"
+            className="button is-primary is-fullwidth is-large"
+          >
+            Essayer l'application avec Expo en utilisant le QR Code.
+          </a>
+        </section>
         <section className="section" style={{ backgroundColor: "#276cda" }}>
           <div className="columns">
             <div className="column is-3 is-offset-1">
@@ -182,7 +193,7 @@ export default class Home extends Component {
                   textAlign: "center"
                 }}
               >
-                Essayer notre application sur mobile !
+                Bientôt disponible sur votre mobile !
               </h1>
             </div>
             <div className="column is-3">
