@@ -81,6 +81,12 @@ export default class Footer extends Component {
           <div className="content has-text-centered">
             <img src={Logo} alt="footer_logo" style={{ height: "200px" }} />
           </div>
+          <div className="content has-text-centered">
+            <p>
+              <a href="https://github.com/guillaumetran">Guillaume Tran</a> |{" "}
+              <a href="https://ludovicgueth.com">Ludovic Gueth</a>
+            </p>
+          </div>
         </div>
       </footer>
     );

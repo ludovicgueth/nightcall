@@ -119,7 +119,7 @@ const Game = () => {
         <a
           className="card-footer-item"
           onClick={() => {
-            handleClick("J'aimerai éssayer");
+            handleClick("J'aimerai essayer");
           }}
         >
           J'aimerai essayer
@@ -163,12 +163,14 @@ export default class Home extends Component {
           </div>
         </section>
         <section className="section">
-          <a
-            href="https://expo.io/@guillaumetran/nuitinfo2017"
-            className="button is-primary is-fullwidth is-large"
-          >
-            Essayer l'application avec Expo en utilisant le QR Code.
-          </a>
+          <div className="container has-text-centered">
+            <a
+              href="https://expo.io/@guillaumetran/nuitinfo2017"
+              className="button is-primary"
+            >
+              Essayer l'application avec Expo en utilisant le QR Code.
+            </a>
+          </div>
         </section>
         <section className="section" style={{ backgroundColor: "#276cda" }}>
           <div className="columns">

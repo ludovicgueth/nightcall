@@ -15,7 +15,6 @@ class App extends Component {
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/stats" component={Stats} exact />
-
           <Route component={PageNotFound} />
         </Switch>
         <Footer />
