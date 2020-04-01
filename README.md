@@ -6,7 +6,7 @@ site internet présentant l'application mobile NIGHT CALL.
 Le site est réalisé entièrement avec reactjs.
 
 Le site est accessible à l'adresse
-[dev.ludovicgueth.com](http://dev.ludovicgueth.com).
+[dev.ludovicgueth.com](http://nightcall.ludovicgueth.com).
 
 # Lancer les sources depuis le terminal
 
